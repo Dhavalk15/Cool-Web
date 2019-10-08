@@ -1,2 +1,2 @@
-# cool-web
+# Cool-Web
 Cool Web is WordPress Theme
