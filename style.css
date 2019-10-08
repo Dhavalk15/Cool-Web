@@ -1,0 +1,474 @@
+/*
+Theme Name:Cool Web
+Author:Dhaval Kasavala
+Author URI: https://dhavalkasavala.wordpress.com
+Theme URI: https://github.com/Dhavalk15
+Description:Coolweb is best theme for all users.
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: cool-web
+Tags: one-column, right-sidebar,custom-menu, custom-logo
+*/
+
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 a {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+h2 a:focus,
+h2 a:hover {
+  text-decoration: none !important;
+  border: none !important;
+  list-style: none;
+  color: black;
+}
+
+.wp-caption {}
+
+.wp-caption-text {}
+
+.alignright {}
+
+.gallery-caption {}
+
+.bypostauthor {}
+
+.alignleft {}
+
+.aligncenter {}
+
+h2 a {
+  color: #000 !important;
+}
+
+.nav-links a,
+.nav-links a>span {
+  font-size: 30px;
+  color: #333;
+}
+
+.nav-links .nav-next {
+  float: left;
+}
+
+.nav-links .nav-previous {
+  float: right;
+}
+
+
+/* Global */
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 38px;
+  border: 0;
+  background: #00aeef;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sidebar-main label {
+  color: #000 !important;
+}
+
+.sidebar-main .form-title {
+  color: #000 !important;
+}
+
+.sidebar-main div.ccf-form-complete {
+  color: #000 !important;
+}
+
+h5.sidebar-main p {
+  color: #000;
+}
+
+.sidebar-main div.form-submit input[type=submit] {
+  background-color: #00aeef !important;
+}
+
+#primary-sidebar li {
+  list-style: none;
+  text-decoration: none;
+}
+
+
+/*Header*/
+
+.cw_header {
+  background: #35424a;
+  color: aliceblue;
+  padding: 30px;
+  min-height: 70px;
+  border-bottom: #00aeef 3px solid;
+}
+
+.cw_header a {
+  color: aliceblue;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.cw_header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+.cw_header #branding {
+  float: left;
+}
+
+header.cw_header nav {
+  float: right;
+}
+
+header.cw_header header.highlight,
+header .current a {
+  color: #00aeef !important;
+  font-weight: bold;
+}
+
+header.cw_header a:hover {
+  color: #ccc !important;
+}
+
+span.highlight a {
+  color: #00aeef !important;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+span.highlight a:hover {
+  text-decoration: none;
+}
+
+.menu a {
+  color: #ccc !important;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+.menu a:hover {
+  color: #00aeef !important;
+  font-weight: bold;
+  text-decoration: none !important;
+}
+
+
+/*Showcase*/
+
+#showcase {
+  min-height: 400px;
+  background-size: 0 -129px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: cyan;
+  opacity: 0.7;
+}
+
+#showcase h1 {
+  margin-top: 130px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+
+/*Newsletter*/
+
+#newsletter {
+  padding: 15px;
+  color: aliceblue;
+  background: #35424a;
+}
+
+#newsletter h1 {
+  float: left;
+}
+
+#newsletter form {
+  float: right;
+  margin-top: 25px;
+}
+
+#newsletter input[type="email"] {
+  padding: 5px;
+  height: 30px;
+  width: 250px;
+}
+
+.eml {
+  color: black;
+}
+
+/*Boxes*/
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+#boxes .box h3 {
+  font-weight: bold;
+}
+
+#boxes .box i {
+  font-size: 850%;
+}
+
+#html {
+  color: #f08050;
+}
+
+#css {
+  color: #1572b6;
+}
+
+#desktop {
+  color: #000;
+}
+
+
+/*aside*/
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+.button {
+  height: 38px;
+  border: 0;
+  background: #00aeef;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 90px;
+  margin-top: 7px;
+}
+
+
+/*Services*/
+
+ul#services li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+
+/*Main-col*/
+
+article#main-col-home {
+  float: left;
+  width: 65%;
+}
+
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+
+/*Footer*/
+
+footer.coolweb_footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #00aeef;
+  text-align: center;
+}
+
+footer.coolweb_footer a {
+  color: #fff;
+}
+
+.screen-reader-text {
+  display: none;
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+  background-color: #ef237c;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-size: 1.875rem;
+  font-weight: bold;
+  height: auto;
+  right: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+/* Text meant only for screen readers. */
+.skip-link.screen-reader-text {
+  display: block;
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.skip-link.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  height: auto;
+  right: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+#branding .nav-link  {
+  color: #e5e5e5;
+}
+
+/*Media Queries*/
+
+@media (max-width:768px) {
+  .cw_header #branding,
+  .cw_header nav,
+  .cw_header nav li,
+  #newsletter,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  #main-col-home,
+  aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .cw_header {
+    padding-bottom: 20px;
+  }
+  #showcase h1 {
+    margin-top: 40px;
+  }
+  #newsletter button {
+    display: block;
+    width: 100%;
+  }
+  #newsletter form input[type="email"] {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .button {
+    margin-left: -2px;
+  }
+  #showcase h1 {
+    font-size: 35px;
+  }
+  #showcase p {
+    font-size: 25px;
+  }
+  #primary-sidebar li {
+    text-align: center;
+  }
+  .highlight .navbar-brand {
+    font-size: 1.0rem !important;
+  }  
+}
+
+.widgettitle {
+  color: #000 !important;
+}
+
+.primary-sidebar li a,
+.primary-sidebar li {
+  color: #000 !important;
+}
+
+.primary-sidebar .searchform #searchsubmit {
+  background: #000;
+  border: none;
+  padding: 3px;
+}
+
+.post-navigation .screen-reader-text {
+  display: none;
+}
+
+.highlight a:hover {
+  cursor: pointer !important;
+}
